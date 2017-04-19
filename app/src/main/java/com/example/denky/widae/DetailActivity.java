@@ -77,14 +77,14 @@ public class DetailActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.wild_btn:
-                        text_first.setText("현재 야생 "+myAnimal+"입니다.");
+                        text_first.setText("현재 동물원 "+myAnimal+"입니다.");
                         if(animalObject.type  == 2){
                             text_first.setText("야생 "+myAnimal+"가 되었습니다.");
                             animalObject.goJungle();
                         }
                         break;
                     case R.id.zoo_btn:
-                        text_first.setText("현재 동물원 "+myAnimal+"입니다.");
+                        text_first.setText("현재 야생 "+myAnimal+"입니다.");
                         if(monkey.type ==1 ) {
                             text_first.setText("동물원 "+myAnimal+"가 되었습니다.");
                             animalObject.gotcha();
