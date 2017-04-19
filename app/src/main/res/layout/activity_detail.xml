@@ -6,24 +6,27 @@
     android:layout_height="match_parent"
 
     >
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Study for implements n extends"
+            android:text="Welcome to your Zoo!"
             android:textSize="18dp"
             android:gravity="center"
             android:layout_marginTop="30dp"
-
             />
         <TextView
+            android:id="@+id/myAnimal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:text="201611296 정위대"
             android:gravity="center"
             />
         <ImageView
@@ -36,7 +39,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="원숭이가 야생에 있습니다."
+            android:text="표시할 것이 없습니다."
             android:textAlignment="center"
             android:textSize="20dp"
             android:id="@+id/explan_text"
@@ -50,10 +53,10 @@
                 android:id="@+id/wild_btn"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
-                android:text="야생화"/>
+                android:text="놓아주기"/>
             <Button
                 android:id="@+id/zoo_btn"
-                android:text="포획(동물원)"
+                android:text="다시 포획하기"
                 android:layout_width="150dp"
                 android:layout_height="50dp" />
             <Button

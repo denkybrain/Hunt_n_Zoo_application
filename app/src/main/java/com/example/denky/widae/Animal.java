@@ -62,7 +62,7 @@ public class Animal implements AnimalAction {
     public String yowl() {
         if(action == wild)
             return action.yowl();
-        return "할 수 없습니다";
+        return "할 수 없습니다.";
     }
     @Override
     public String cuty() {
@@ -76,5 +76,8 @@ public class Animal implements AnimalAction {
             return action.acrobatic();
         }
         return "할 수 없습니다.";
+    }
+    public String dance(){
+        return name+"만의 춤을 췄다";
     }
 }

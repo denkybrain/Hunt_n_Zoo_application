@@ -23,6 +23,24 @@
             android:gravity="center"
             android:layout_marginTop="30dp"
             android:textColor="@color/black"
+            /><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="201611296 정위대"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+        <TextView
+            android:id="@+id/yourAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/black"
+
             />
 
 
@@ -30,16 +48,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="220dp">
+
             <Button
                 android:id="@+id/toWild_btn"
-                android:layout_width="120dp"
+                android:layout_width="160dp"
                 android:layout_height="50dp"
                 android:text="In the Wild"/>
+
             <Button
                 android:id="@+id/toZoo_btn"
                 android:text="In the Zoo"
-                android:layout_width="120dp"
+                android:layout_width="160dp"
                 android:layout_height="50dp" />
             <!--
             < Button

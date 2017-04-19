@@ -1,14 +1,12 @@
 package com.example.denky.widae;
 
-import android.util.Log;
-
 /**
  * Created by denky on 2017-04-14.
  */
 
-public class Monkey extends Animal{
+public class Wolf extends Animal{
     String what = "monkey";
-    Monkey(int type, String name){
+    Wolf(int type, String name){
         this.name = name;
         this.type = type;
         AnimalSet();
